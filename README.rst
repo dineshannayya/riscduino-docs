@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
+Riscduino Documentation
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This GitHub includes all the documentation related to Riscduino project
 
-Read the tutorial here:
+Read the document here:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://riscduino.readthedocs.io/en/latest/

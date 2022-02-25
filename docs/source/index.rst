@@ -1,24 +1,47 @@
+.. raw:: html
+<!---
+   # SPDX-FileCopyrightText: 2021 Dinesh Annayya (dinesha@opencores.org)
+   #
+   # Licensed under the Apache License, Version 2.0 (the "License");
+   # you may not use this file except in compliance with the License.
+   # You may obtain a copy of the License at
+   #
+   #      http://www.apache.org/licenses/LICENSE-2.0
+   #
+   # Unless required by applicable law or agreed to in writing, software
+   # distributed under the License is distributed on an "AS IS" BASIS,
+   # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   # See the License for the specific language governing permissions and
+   # limitations under the License.
+   #
+   # SPDX-License-Identifier: Apache-2.0
+   -->
+
+
+===================================
 Welcome to Riscduino's documentation!
 ===================================
 
-**Riscduino** is a Open source, 32 bit RISC V based SOC design targetted to pin compatible to arudino platform.
-This project uses only open source tool set for RTL to GDS implementations. 
-The SOC follows openlane RTL to GDS flow and development environment is compatible with efabless/carvel MPW methodology.
-
-Design source cab be browse at `Riscdino database <https://github.com/dineshannayya/riscduino/>`_
-and database include all the *RTL*, *Verification* and *Silicon implementation* scripts. 
+.. include:: introduction.rst
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
-.. note::
-
-   This project is under active development.
-
-Contents
---------
-
 .. toctree::
+   :hidden:
+   :maxdepth: 1
 
-   usage
-   api
+   description
+   getting-started
+   tool-versioning
+   quick-start
+   riscduino-with-openlane
+   pinout
+   riscv
+   qspi
+   uart
+   spi
+   usb1.1
+   memory-mapped-register
+   references
+   further-work

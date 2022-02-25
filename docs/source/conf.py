@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Riscduino'
+copyright = '2021, Dinesh Annayya'
+author = 'Dinesh Annayya'
 
 release = '0.1'
 version = '0.1.0'

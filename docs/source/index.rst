@@ -34,6 +34,7 @@ Welcome to Riscduino's documentation!
    quick-start
    riscduino-with-openlane
    pinout
+   simulation
    riscv
    qspi
    uart

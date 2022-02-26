@@ -24,6 +24,7 @@ This section describes lists the pinout for the SoC, and provides the descriptio
 
  Pinout Diagram
 -------------------
+
 .. figure:: _static/riscduino_pinmap.png
     :name: pin map
     :width: 30%

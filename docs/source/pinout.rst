@@ -30,6 +30,8 @@ Pinout Diagram
     :width: 30%
     :align: center
 
+     Pin assignment
+
 
 Pinout Map
 ----------

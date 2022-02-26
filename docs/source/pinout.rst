@@ -27,7 +27,7 @@ Pinout Diagram
 
 .. figure:: _static/riscduino_pinmap.png
     :name: pin map
-    :width: 30%
+    :width: 100%
     :align: center
 
      Pin assignment

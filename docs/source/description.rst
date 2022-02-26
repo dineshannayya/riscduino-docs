@@ -32,8 +32,6 @@ Syntacore SCR1 (https://github.com/syntacore/scr1)
 core customization
 --------
 Following Design changes are done on the basic version of syntacore RISC core
-
-```
    * Some of the sv syntex are changed to standard verilog format to make compatibile with opensource tool iverilog & yosys
    * Instruction Request are changed from Single word to 4 Word Burst
    * Multiplication and Divsion are changed to improve timing
@@ -43,12 +41,10 @@ Following Design changes are done on the basic version of syntacore RISC core
    * Additional router are added towards instruction cache
    * Additional router are added towards data cache
    * Modified AXI/AHB interface to wishbone interface for instruction and data memory interface
-```
 
 Features
 --------
 
-```
    * RV32I or RV32E ISA base + optional RVM and RVC standard extensions
    * Machine privilege mode only
    * 2 to 5 stage pipeline
@@ -57,7 +53,6 @@ Features
    * Optional Integrated Programmable Interrupt Controller with 16 IRQ lines
    * Optional RISC-V Debug subsystem with JTAG interface
    * Optional on-chip Tightly-Coupled Memory
-```
 
 License
 -------

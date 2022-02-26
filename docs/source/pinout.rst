@@ -22,6 +22,12 @@ Pinout description
 
 This section describes lists the pinout for the SoC, and provides the description for pins.
 
+.. figure:: _static/riscduino_pinmap.png
+    :name: pin map
+    :width: 30%
+    :align: center
+
+
 .. list-table:: Pinout
     :name: pinout
     :header-rows: 1

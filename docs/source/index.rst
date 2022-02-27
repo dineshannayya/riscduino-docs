@@ -33,6 +33,7 @@ Welcome to Riscduino's documentation!
    tool-versioning
    quick-start
    riscduino-with-openlane
+   mpw-shuttle
    pinout
    simulation
    riscv

@@ -18,7 +18,7 @@
    # SPDX-License-Identifier: Apache-2.0
    -->
 
-User project quick start guide
+quick start guide
 ==============================
 
 This section describes how to simulate and .gds generarion with the `Riscduino repository <https://github.com/dineshannayya/riscduino>`_ 

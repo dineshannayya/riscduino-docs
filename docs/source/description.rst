@@ -23,36 +23,38 @@ Description
 
 This section provides basic description of the Riscduino SoC.
 
-RISCV Core
-----
+Block Diagram
+--------------
+.. figure:: _static/riscvcore_blockdiagram.png
+    :name: Riscduino block diagram
+    :width: 100%
+    :align: center
 
-Riscduino SOC Integrated 32 Bits RISC V core. Initial version of Single core RISC-V core is picked from 
-Syntacore SCR1 (https://github.com/syntacore/scr1)
+     Riscduino block diagram
 
-core customization
---------
-Following Design changes are done on the basic version of syntacore RISC core
-   * Some of the sv syntex are changed to standard verilog format to make compatibile with opensource tool iverilog & yosys
-   * Instruction Request are changed from Single word to 4 Word Burst
-   * Multiplication and Divsion are changed to improve timing
-   * Additional pipe line stages added to improve the RISC timing closure near to 50Mhz
-   * 2KB instruction cache 
-   * 2KB data cache
-   * Additional router are added towards instruction cache
-   * Additional router are added towards data cache
-   * Modified AXI/AHB interface to wishbone interface for instruction and data memory interface
-
-Features
---------
-
-   * RV32I or RV32E ISA base + optional RVM and RVC standard extensions
-   * Machine privilege mode only
-   * 2 to 5 stage pipeline
-   * 2KB icache
-   * 2KB dcache
-   * Optional Integrated Programmable Interrupt Controller with 16 IRQ lines
-   * Optional RISC-V Debug subsystem with JTAG interface
-   * Optional on-chip Tightly-Coupled Memory
+Key features
+------------
+    * Open sourced under Apache-2.0 License (see LICENSE file) - unrestricted commercial use allowed.
+    * 32 Bit RISC-V core
+    * 2KB SRAM for instruction cache 
+    * 2KB SRAM for data cache
+    * 2KB SRAM for Tightly coupled memory - For Data Memory
+    * Quad SPI Master
+    * UART with 16Byte FIFO
+    * USB 1.1 Host
+    * I2C Master
+    * UART Master
+    * Simple SPI Master
+    * 6 Channel ADC (in Progress)
+    * 6 PWM
+    * Pin Compatbible to arudino uno
+    * Wishbone compatible design
+    * Written in System Verilog
+    * Open-source tool set
+       * simulation - iverilog
+       * synthesis  - yosys
+       * backend/sta - openlane tool set
+    * Verification suite provided.
 
 License
 -------

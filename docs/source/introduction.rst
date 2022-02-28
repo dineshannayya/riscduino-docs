@@ -34,8 +34,10 @@ The documentation contains the following chapters:
 * :doc:`tool-versioning` contains the tool versions prefered for usage with the current Riscduino SoC,
 * :doc:`quick-start` contains a guide on how to get quickly started with using Riscduino SoC without many details,
 * :doc:`riscduino-with-openlane` contains information on how to build your user project with OpenLANE inside the Riscduino SoC,
+* :doc:`mpw-shuttle` contains information about riscduino project in different MPW shuttle
 * :doc:`simulation` contains information on how to simulate,
 * :doc:`pinout` describes the pinout of the SoC,
+* :doc:`riscv` describes the RISCV configuration,
 * :doc:`qspi` describes the SPI configuration,
 * :doc:`uart` describes the UART interface,
 * :doc:`usb1.1` describes the USB1.1 host interface,

@@ -32,37 +32,37 @@ This section provides details on different Riscduino submission in different MPW
     * - MPW Shuttle
       - Tape-out Date
       - Project Name
-      - Project details
       - Submission Link
       - Silicon Status
+      - Project details
     * - MPW-2
       - November 15, 2021
       - YiFive
-      - Single Riscv core without cache+SDRAM, Not compatible with Arudino pins
       - `Link <https://efabless.com/projects/152/>`_
       - Waiting
+      - Single Riscv core without cache+SDRAM, Not compatible with Arudino pins
     * - MPW-3
       - November 15, 2021
       - riscduino
-      - Single Riscv core without cache 
       - `Link <https://efabless.com/projects/385/>`_
       - Waiting
+      - Single Riscv core without cache 
     * - MPW-4
       - December 31, 2021
       - riscduino-R1
-      - Single Riscv core with cache + SRAM
       - `Link <https://efabless.com/projects/575/>`_
       - Waiting
+      - Single Riscv core with cache + SRAM
     * - MPW-5
       - March 21, 2022
       - riscduino-R2
-      - Single Riscv core with cache + DFFRAM
       - `Link <https://efabless.com/projects/670/>`_
       - Waiting
+      - Single Riscv core with cache + DFFRAM
     * - MPW-5
       - March 21, 2022
       - riscduino-Dual Core (D0) 
-      - Dual Riscv core with cache + DFFRAM
       - `Link <https://efabless.com/projects/718/>`_
       - Waiting
+      - Dual Riscv core with cache + DFFRAM
 

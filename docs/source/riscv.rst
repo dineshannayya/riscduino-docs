@@ -51,6 +51,10 @@ Features
 
 Block Diagram
 --------------
+Following RISCV core configuration are been tried in different MPW Shuttle
+
+Riscv Single core
+-----------------
 .. figure:: _static/riscduino_1c.png
     :name: Riscduino Single core
     :width: 100%
@@ -58,6 +62,8 @@ Block Diagram
 
      Riscduino Single Core
 
+Riscv Single core + cache
+------------------------
 .. figure:: _static/riscduino_1cc.png
     :name: Riscduino Single core with cache
     :width: 100%
@@ -65,6 +71,8 @@ Block Diagram
 
      Riscduino Single Core with cache
 
+Riscv Two core + cache
+------------------------
 .. figure:: _static/riscduino_2cc.png
     :name: Riscduino Two core with cache
     :width: 100%

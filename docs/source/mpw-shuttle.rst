@@ -24,8 +24,7 @@ MPW Shuttle
 This section provides details on different Riscduino submission in different MPW shuttle
 
 
-.. list-table:: mpw shuttle
-
+.. list-table:: shuttle
     :name: pinout
     :header-rows: 1
     :stub-columns: 1
@@ -66,5 +65,4 @@ This section provides details on different Riscduino submission in different MPW
       - Dual Riscv core with cache + DFFRAM
       - `Link <https://efabless.com/projects/718/>`_
       - Waiting
-
 

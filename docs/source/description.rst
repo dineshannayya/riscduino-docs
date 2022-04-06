@@ -47,6 +47,7 @@ Key features
     * Simple SPI Master
     * 6 Channel ADC (in Progress)
     * 6 PWM
+    * 3 Timer (16 Bit), 1us/1ms/1second resolution
     * Pin Compatbible to arudino uno
     * Wishbone compatible design
     * Written in System Verilog

@@ -21,7 +21,7 @@
 MPW Shuttle
 ===========
 
-This section provides details on different Riscduino submission in different MPW shuttle
+This section provides details on Riscduino submission in different MPW shuttle
 
 
 .. list-table:: shuttle
@@ -38,31 +38,37 @@ This section provides details on different Riscduino submission in different MPW
     * - MPW-2
       - November 15, 2021
       - YiFive
-      - `Link <https://efabless.com/projects/152/>`_
+      - `Link <https://platform.efabless.com/projects/152/>`_
       - Waiting
       - Single Riscv core without cache+SDRAM, Not compatible with Arudino pins
     * - MPW-3
       - November 15, 2021
       - riscduino
-      - `Link <https://efabless.com/projects/385/>`_
+      - `Link <https://platform.efabless.com/projects/385/>`_
       - Waiting
       - Single Riscv core without cache 
     * - MPW-4
       - December 31, 2021
       - riscduino-R1
-      - `Link <https://efabless.com/projects/575/>`_
+      - `Link <https://platform.efabless.com/projects/575/>`_
       - Waiting
       - Single Riscv core with cache + SRAM
     * - MPW-5
       - March 21, 2022
-      - riscduino-R2
-      - `Link <https://efabless.com/projects/670/>`_
+      - riscduino-SCore (S2)
+      - `Link <https://platform.efabless.com/projects/67/>`_
       - Waiting
       - Single Riscv core with cache + DFFRAM
     * - MPW-5
       - March 21, 2022
       - riscduino-Dual Core (D0) 
-      - `Link <https://efabless.com/projects/718/>`_
+      - `Link <https://platform.efabless.com/projects/718>`_
       - Waiting
-      - Dual Riscv core with cache + DFFRAM
+      - Dual Riscv core with cache + SRAM
+    * - MPW-5
+      - March 21, 2022
+      - riscduino-Quad Core (Q0) 
+      - `Link <https://platform.efabless.com/projects/782>`_
+      - Waiting
+      - Quad Riscv core with cache + SRAM
 

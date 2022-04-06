@@ -24,8 +24,10 @@ Introduction
 This project uses only open source tool set for RTL to GDS implementations. 
 The SOC follows openroad/openlane flow and development environment is compatible with efabless/carvel MPW methodology.
 
-The Github Repo could be found here:`Riscdino database <https://github.com/dineshannayya/riscduino/>`_
-and database include all the RTL, Verification and Silicon implementation scripts. 
+The Github Repo could be found here and database include all the RTL, Verification and Silicon implementation scripts.
+* `Riscdino Single Core database <https://github.com/dineshannayya/riscduino/>`_
+* `Riscdino Dual Core database <https://github.com/dineshannayya/riscduino_dcore/>`_
+* `Riscdino Quad Core database <https://github.com/dineshannayya/riscduino_qcore/>`_
 
 The documentation contains the following chapters:
 

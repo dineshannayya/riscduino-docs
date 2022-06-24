@@ -23,7 +23,13 @@ Simulation
 
 This section provides basic description of how to simulate the Riscduino SoC.
 
-Basic Usage command :  make verify-<test directory name>
+Basic Usage command :  make verify-<test directory name> SIM=<RTL/GL> DUMP=<ON/OFF>
+
+SIM=RTL  - For RTL Simulation (Default).
+SIM=GL   - For Gate Level Simulation.
+
+DUMP=ON  - For simulation with waveform dump enabled.
+DUMP=OFF - For simulation with waveform dump disabled (Default)
 
 Dut Test case
 -------------
@@ -31,10 +37,16 @@ Below test-case run faster as it uses only user_project_wrapper and wishbone to 
 
 * make verify-user_basic   
 * make verify-user_uart    
+* make verify-user_uart1   
 * make verify-user_risc_boot
-* make verify-user_spi
+* make verify-user_sspi
 * make verify-user_i2cm
 * make verify-user_uart_master
+* make verify-user_pwm
+* make verify-user_gpio
+* make verify-user_timer
+* make verify-user_qspi
+* make verify-user_usb
 
 Core RISC-V Regression
 ----------------------
